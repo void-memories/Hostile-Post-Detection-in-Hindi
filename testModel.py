@@ -58,6 +58,6 @@ for index in range(len(posts2)):
         wrong+=1
             
 print(str((correct/total)*100)[:5]+'%')
-print(correct,wrong,total)
+print(correct,wrong)
             
             

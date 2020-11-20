@@ -39,6 +39,7 @@ for i in data['cleanPost']:
 
 
 #Translating hindi to english using "googletrans" API
+from googletrans import Translator
 import time
 errorCounter=0
 cnt=0
@@ -48,7 +49,7 @@ f.write("Now the file has more content!")
 for i in range(5728):
     t=Translator()
     cnt+=1
-    time.sleep(1)
+    time.sleep(5)
     
     print(cnt,errorCounter)
     # if i%5==0:
